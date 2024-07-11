@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="26"
+7-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="33" />
+8-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-77
+11-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-74
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-63
+12-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:20-60
+13
+14    <uses-feature android:glEsVersion="0x00030000" />
+14-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-52
+14-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-49
+15    <uses-feature
+15-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-83
+16        android:name="android.hardware.camera"
+16-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-55
+17        android:required="false" />
+17-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:56-80
+18    <uses-feature
+18-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-93
+19        android:name="android.hardware.camera.autofocus"
+19-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-65
+20        android:required="false" />
+20-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:66-90
+21    <uses-feature
+21-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-89
+22        android:name="android.hardware.camera.front"
+22-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-61
+23        android:required="false" />
+23-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:62-86
+24    <uses-feature
+24-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:3-88
+25        android:name="android.hardware.touchscreen"
+25-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:17-60
+26        android:required="false" />
+26-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:61-85
+27    <uses-feature
+27-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:3-99
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:17-71
+29        android:required="false" />
+29-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:72-96
+30    <uses-feature
+30-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:3-108
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:17-80
+32        android:required="false" />
+32-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:81-105
+33    <uses-feature
+33-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-85
+34        android:name="android.hardware.camera.ar"
+34-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:17-58
+35        android:required="true" />
+35-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:59-82
+36    <uses-feature
+36-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-83
+37        android:name="com.google.ar.core.depth"
+37-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-56
+38        android:required="true" />
+38-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:57-80
+39
+40    <application android:extractNativeLibs="true" >
+40-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:3-31:17
+40-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-48
+41        <meta-data
+41-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+42            android:name="unity.splash-mode"
+42-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+43            android:value="0" />
+43-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+44        <meta-data
+44-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+45            android:name="unity.splash-enable"
+45-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+46            android:value="True" />
+46-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+47        <meta-data
+47-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+48            android:name="unity.launch-fullscreen"
+48-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+49            android:value="True" />
+49-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+50        <meta-data
+50-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+51            android:name="unity.allow-resizable-window"
+51-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+52            android:value="False" />
+52-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+53        <meta-data
+53-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+54            android:name="notch.config"
+54-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+55            android:value="portrait|landscape" />
+55-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+56        <meta-data
+56-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+57            android:name="unity.auto-report-fully-drawn"
+57-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-60
+58            android:value="true" />
+58-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:61-81
+59        <meta-data
+59-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-78
+60            android:name="unity.strip-engine-code"
+60-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-54
+61            android:value="true" />
+61-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:55-75
+62
+63        <activity
+63-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-28:16
+64            android:name="com.unity3d.player.UnityPlayerActivity"
+64-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:312-365
+65            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+65-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:15-196
+66            android:enabled="true"
+66-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:197-219
+67            android:exported="true"
+67-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:220-243
+68            android:hardwareAccelerated="false"
+68-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:244-279
+69            android:launchMode="singleTask"
+69-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:280-311
+70            android:resizeableActivity="false"
+70-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:366-400
+71            android:screenOrientation="portrait"
+71-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:401-437
+72            android:theme="@style/UnityThemeSelector" >
+72-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:438-479
+73            <intent-filter>
+73-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:7-25:23
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:9-69
+74-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:19-66
+75
+76                <action android:name="android.intent.action.MAIN" />
+76-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:9-61
+76-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-58
+77            </intent-filter>
+78
+79            <meta-data
+79-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:7-82
+80                android:name="unityplayer.UnityActivity"
+80-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:18-58
+81                android:value="true" />
+81-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:59-79
+82            <meta-data
+82-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:7-70
+83                android:name="notch_support"
+83-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:18-46
+84                android:value="true" />
+84-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:47-67
+85        </activity>
+86
+87        <meta-data
+87-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:5-88
+88            android:name="unityplayer.SkipPermissionsDialog"
+88-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:16-64
+89            android:value="true" />
+89-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:65-85
+90        <meta-data
+90-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:5-77
+91            android:name="com.google.ar.core"
+91-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:16-49
+92            android:value="required" />
+92-->C:\Users\lucas\OneDrive\Documentos\game dev\unity\projects\app_livro_RA\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:50-74
+93    </application>
+94
+95</manifest>

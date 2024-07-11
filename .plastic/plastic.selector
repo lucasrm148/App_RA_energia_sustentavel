@@ -1,0 +1,4 @@
+repository "app_livro_RA@lucasrm148@cloud"
+  path "/"
+    br "/main"
+    co "/main"

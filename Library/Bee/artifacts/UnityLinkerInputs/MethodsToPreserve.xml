@@ -1,0 +1,54 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Detection_Scene">
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+			<method name="get_target"/>
+		</type>
+		<type fullname="login_controler">
+			<method name="sena_passer"/>
+			<method name="sena_passer"/>
+		</type>
+		<type fullname="Projection">
+			<method name="_start_target"/>
+			<method name="_start_target"/>
+		</type>
+	</assembly>
+	<assembly fullname="Vuforia.Unity.Engine" ignoreIfMissing="1">
+		<type fullname="Vuforia.ContentPositioningBehaviour">
+			<method name="PositionContentAtPlaneAnchor"/>
+		</type>
+		<type fullname="Vuforia.PlaneFinderBehaviour">
+			<method name="PerformHitTest"/>
+		</type>
+	</assembly>
+</linker>

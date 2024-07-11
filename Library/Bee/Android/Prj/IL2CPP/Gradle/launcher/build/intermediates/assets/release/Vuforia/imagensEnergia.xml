@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="img22-rede-eletrica" size="1697.000000 1852.000000" />
+    <ImageTarget name="img21" size="1630.000000 1182.000000" />
+    <ImageTarget name="img20-proj2-pg73" size="2535.000000 2257.000000" />
+    <ImageTarget name="img19" size="2599.000000 1079.000000" />
+    <ImageTarget name="img18-projeto1" size="2487.000000 1507.000000" />
+    <ImageTarget name="img17-esquema-projeto" size="2385.000000 1098.000000" />
+    <ImageTarget name="im16-paineis-em-paralelo" size="2696.000000 1766.000000" />
+    <ImageTarget name="im15-paineis-em-serie-pg58" size="2557.000000 1457.000000" />
+    <ImageTarget name="im14-painel-ligacao-mista" size="2449.000000 1544.000000" />
+    <ImageTarget name="im13-paineis-ligacao-paralela" size="2449.000000 1200.000000" />
+    <ImageTarget name="im12-paineis-ligacao-serie" size="2431.000000 1070.000000" />
+    <ImageTarget name="im11-paineis-ligacao-ongrid" size="2450.000000 1935.000000" />
+    <ImageTarget name="im10-placas-e-postes" size="1835.000000 1646.000000" />
+    <ImageTarget name="im9-placas-telhado" size="2125.000000 1182.000000" />
+    <ImageTarget name="im8-inversor" size="2413.000000 763.000000" />
+    <ImageTarget name="im7-controlador-carga" size="2433.000000 774.000000" />
+    <ImageTarget name="im6-bateria" size="2268.000000 737.000000" />
+    <ImageTarget name="im5-placa-conectores" size="2478.000000 1851.000000" />
+    <ImageTarget name="im4-placa-solar2" size="2218.000000 1086.000000" />
+    <ImageTarget name="im3-placa-solar1" size="1771.000000 1002.000000" />
+    <ImageTarget name="im2-eletrons-ccorrente-pg40" size="1949.000000 1271.000000" />
+    <ImageTarget name="im1-eletrons_semcorrente_pg39" size="1880.000000 892.000000" />
+  </Tracking>
+</QCARConfig>

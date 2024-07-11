@@ -1,0 +1,4 @@
+#Tue Apr 09 15:51:54 GFT 2024
+base.0=C\:\\Users\\lucas\\OneDrive\\Documentos\\game dev\\unity\\projects\\app_livro_RA\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
